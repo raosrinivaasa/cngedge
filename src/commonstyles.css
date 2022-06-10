@@ -1,0 +1,78 @@
+html,body{
+    margin:0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth !important;
+}
+.rflex{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.cflex{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.mp8{
+    margin:8px !important;
+    padding:8px !important;
+}
+.mpb8{
+    margin-bottom:8px;
+    padding-bottom:8px;
+}
+.mp16{
+    margin:16px;
+    padding:16px;  
+}
+a{
+    text-decoration: none !important;
+    color:var(--secondary)
+}
+a:hover{
+    cursor: pointer;
+    color:chocolate;
+}
+.btn{
+width: fit-content;
+}
+.logoSize{
+    width:40px;
+    height:40px;
+    padding:8px;
+}
+.imgSize{
+    width:256px;
+    height:256px;    
+}
+.tleft{
+    text-align: left;
+}
+/*Font styles*/
+.f1{
+    font-size:80px;
+}
+.f2{
+    font-size: 32px;
+}
+.f3{
+    font-size: 24px;
+}
+@media(max-width:560px){
+    .f1{
+        font-size: 40px;
+    }
+    .f2{
+        font-size: 32px;
+    }
+    .f3{
+        font-size:16px;
+    }
+}
